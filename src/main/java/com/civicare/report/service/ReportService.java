@@ -8,12 +8,11 @@ import com.civicare.report.model.Report;
 import com.civicare.report.repository.IdempotencyRepository;
 import com.civicare.report.repository.ReportRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.annotation.Id;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.Optional;
-import java.util.UUID;
+
 
 @Service
 public class ReportService {

@@ -1,7 +1,6 @@
 package com.civicare.report.controller;
 
 import com.civicare.report.dto.CreateReportRequest;
-import com.civicare.report.model.Report;
 import com.civicare.report.service.ReportService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
